@@ -118,8 +118,10 @@
 
         </activity>
 
+        <activity android:name="com.dyk.cameratest.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
-
+        </activity>
 
 
 

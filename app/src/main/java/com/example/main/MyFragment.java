@@ -12,6 +12,7 @@ import android.widget.GridView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
+import com.dyk.cameratest.MainActivity;
 import com.example.god.southcar.R;
 import com.example.identity_pic.identity_selsect_sum.identity_select.xianlu_identity_activity;
 import com.example.picturewall.PhotoWallAdapter;
@@ -119,6 +120,10 @@ public class MyFragment extends Fragment {
 
                 if(position == 1){
                     Intent intent = new Intent(getActivity(),xianlu_identity_activity.class);
+                    getActivity().startActivity(intent);
+                }
+                if(position == 2){
+                    Intent intent = new Intent(getActivity(),MainActivity.class);
                     getActivity().startActivity(intent);
                 }
 //                getActivity().finish();
